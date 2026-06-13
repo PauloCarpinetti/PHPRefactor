@@ -41,3 +41,18 @@ Este projeto utiliza o Composer para gerenciar o autoload das classes refatorada
 ```bash
 git clone [https://github.com/PauloCarpinetti/PHPRefactor.git](https://github.com/PauloCarpinetti/PHPRefactor.git)
 cd phprefactor
+```
+**2. Instale as dependências:**
+```
+composer install
+```
+
+**3. Testando o Autoload (Composer Scripts):**
+```
+composer dump-autoload
+```
+
+**4. Rodando os Testes Unitários:**
+```
+composer test
+```
