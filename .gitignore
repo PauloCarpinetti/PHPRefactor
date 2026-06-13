@@ -1,0 +1,30 @@
+# --- Dependências de terceiros ---
+/vendor/
+
+# --- Caches e Arquivos Temporários do PHPUnit ---
+/.phpunit.result.cache
+/phpunit.xml.bak
+
+# --- Configurações de IDEs (Editores de Código) ---
+/.idea/
+/.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# --- Arquivos de Sistema Operacional ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# --- Arquivos de Configuração Local / Sensíveis ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Logs ---
+*.log
